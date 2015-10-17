@@ -8,6 +8,31 @@ gate, though. This is a many layered architecture that sets you up for success
 at every level. It is highly opinionated, but attempts to hold these opinions
 loosely so that you can change it if you so desire.
 
+### Setup dev virtual machine
+
+1. Install Vagrant from http://www.vagrantup.com/downloads.html
+2. Install VirtualBox from https://www.virtualbox.org/wiki/Downloads
+3. Clone this project (you can put it somewhere besides ~/src)
+
+    ```
+    mkdir ~/src
+    cd ~/src
+    git clone git@github.com:Skookum-Nightshift/front-end-vol-eng-b.git
+    ```
+
+4. Start virtual server using Vagrant
+
+    ```
+    # cd ~/src/front-end-vol-eng-b
+    vagrant up
+    ```
+
+5. Log on to the virtual machine
+
+    ```
+    vagrant ssh
+    ```
+
 ## Get Hacking
 
 * `npm install`
