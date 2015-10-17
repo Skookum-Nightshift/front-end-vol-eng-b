@@ -33,6 +33,12 @@ loosely so that you can change it if you so desire.
     vagrant ssh
     ```
 
+6. Change to the project folder in /vagrant -- this is where the project directory from your laptop is mounted on the virtual machine
+
+    ```
+    cd /vagrant
+    ```
+
 ## Get Hacking
 
 * `npm install`
